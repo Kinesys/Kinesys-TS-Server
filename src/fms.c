@@ -54,3 +54,24 @@ k = (S[i] + S[j]) %256;
 return S[k];
 
 }
+
+int main(int argc, char *argv[]) {
+
+    int K[256];
+    int S[256];
+
+    int IV[3];
+    int key[13] = {1, 2, 3, 4, 5, 66, 75, 123, 99, 100, 123, 43, 213};
+    int seed[16];
+
+    int N = 256;
+    int i, j, k, t, x, A;
+    int keystream, keybyte;
+
+    int max_result, max_count;
+
+    int results[256];
+
+    
+
+}
